@@ -1,0 +1,61 @@
+.bg-img {
+  background-image: url(./assets/img/hacker-shoot-PHD3XCE.jpg);
+  width: 100%;
+}
+
+.service-img {
+  background-image: url(./assets/img/indian-software-developer-XAA6LDA.jpg);
+  background-size: cover;
+  width: 100%;
+}
+
+.work-img {
+  background-image: url(./assets/img/work-1.jpg);
+  width: 100%;
+  height: 280px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: all .4s;
+  background-size: cover;
+  background-position: 50%;
+  z-index: 1;
+  will-change: transform;
+  transition-duration: 1500ms;
+}
+
+@media (max-width: 1024px) {
+  .bg-img {
+    background-color: #000000;
+    background-position: -227px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 767px) {
+  .bg-img {
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 1024px) {
+  .service-img {
+    /* background-color: #000000; */
+    background-position: -227px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 767px) {
+  .service-img {
+    background-position: 36% 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
